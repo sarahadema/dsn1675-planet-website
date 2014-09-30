@@ -52,6 +52,10 @@ header {
   color: #0074D9;
 }
 
+.planet {
+  margin: 0;
+}
+
 @media only screen and (min-width: 20em) {
   
   .nav {
@@ -61,9 +65,19 @@ header {
   .nav li {
     display: inline-block;
   }
+
+  .moons {
+    float: left;
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 40em) {
+
+  .details {
+    float: left;
+    width: 33%;
+  }
   
 }
 
