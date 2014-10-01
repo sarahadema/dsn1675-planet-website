@@ -66,26 +66,14 @@ header {
     display: inline-block;
   }
 
-  .moons {
-    float: left;
-    width: 50%;
-  }
 }
 
 @media only screen and (min-width: 40em) {
 
-  .details {
-    float: left;
-    width: 33%;
-  }
   
 }
 
 @media only screen and (min-width: 60em) {
-
-  .mars {
-    float: left;
-  }
 
   .nav {
     float: left;
