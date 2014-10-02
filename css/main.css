@@ -36,6 +36,9 @@ header {
   background-color: #ccc;
 }
 
+.content {
+  line-height: 1.5rem;
+}
 .mars {
   margin: 0;
   text-align: center;
@@ -66,7 +69,6 @@ header {
 
 .photos {
   margin: 0;
-  overflow: hidden;
 }
 
 @media only screen and (min-width: 20em) {
