@@ -56,6 +56,19 @@ header {
   margin: 0;
 }
 
+.moons {
+  margin: 0;
+}
+
+.name {
+  margin: 0;
+}
+
+.photos {
+  margin: 0;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 20em) {
   
   .nav {
