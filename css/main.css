@@ -55,6 +55,11 @@ header {
   color: #0074D9;
 }
 
+.biline {
+  background-color: #ddd;
+  margin: 0;
+}
+
 .planet {
   margin: 0;
 }
@@ -71,6 +76,9 @@ header {
   margin: 0;
 }
 
+.facts {
+
+}
 @media only screen and (min-width: 20em) {
   
   .nav {
