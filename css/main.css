@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 
-header {
+.masthead {
   overflow: hidden;
 
   background-color: #ccc;
@@ -40,24 +40,38 @@ header {
   line-height: 1.5rem;
 }
 .mars {
+  display: block;
   margin: 0;
-  text-align: center;
 }
 
 .nav {
   padding: 0;
-  list-style-type: none;
 }
 
-.nav a{
+.nav li {
   display: block;
+}
+
+.nav a
+.nav a:linked
+.nav a:visted {
+  display: block;
+
   text-decoration: none;
   color: #0074D9;
 }
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
+}
 
 .biline {
-  background-color: #ddd;
   margin: 0;
+  
+  background-color: #efefef;
 }
 
 .planet {
@@ -66,6 +80,14 @@ header {
 
 .moons {
   margin: 0;
+
+  background-color: #efefef;
+}
+
+.exploration {
+  margin: 0;
+
+  background-color: #efefef;
 }
 
 .name {
@@ -75,10 +97,12 @@ header {
 .photos {
   margin: 0;
 }
+.footer {
+  background-color: #ccc;
 
-.facts {
-
+  overflow:hidden;
 }
+
 @media only screen and (min-width: 20em) {
   
   .nav {
