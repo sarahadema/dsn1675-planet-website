@@ -42,6 +42,8 @@ img {
 .mars {
   display: block;
   margin: 0;
+
+  text-align: center;
 }
 
 .nav {
@@ -52,10 +54,11 @@ img {
   display: block;
 }
 
-.nav a
-.nav a:linked
-.nav a:visted {
+.nav a,
+.nav a:link,
+.nav a:visited {
   display: block;
+  padding: .5em;
 
   text-decoration: none;
   color: #0074D9;
@@ -70,7 +73,8 @@ img {
 
 .biline {
   margin: 0;
-  
+  text-align: center;
+
   background-color: #efefef;
 }
 
@@ -80,14 +84,16 @@ img {
 
 .moons {
   margin: 0;
+  text-align: center;
 
-  background-color: #efefef;
+  background-color: #e1e1e1;
 }
 
 .exploration {
   margin: 0;
+  text-align: center;
 
-  background-color: #efefef;
+  background-color: #e1e1e1;
 }
 
 .name {
@@ -100,7 +106,14 @@ img {
 .footer {
   background-color: #ccc;
 
-  overflow:hidden;
+  margin: 0;
+}
+.info {
+  background-color: #e1e1e1;
+}
+
+.details {
+  background-color: #efefef;
 }
 
 @media only screen and (min-width: 20em) {
@@ -112,18 +125,15 @@ img {
   .nav li {
     display: inline-block;
   }
-
 }
 
 @media only screen and (min-width: 40em) {
 
-  
-}
-
-@media only screen and (min-width: 60em) {
-
-  .nav {
+  .mars{
     float: left;
   }
 
+ .nav {
+    float: left;
+  }
 }
