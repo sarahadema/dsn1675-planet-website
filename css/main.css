@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+  html{
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width:120em) {
+  
+  html {
+    font-size: 130%;
+  }
+
+ }
+  
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -71,6 +95,31 @@ img {
   color: #fff;
 }
 
+.bottom-nav {
+  padding: 0;
+}
+
+.bottom-nav li {
+  display: block;
+}
+
+.bottom-nav a,
+.bottom-nav a:link,
+.bottom-nav a:visited {
+  display: block;
+  padding: .5em;
+
+  text-decoration: none;
+  color: #0074D9;
+}
+.bottom-nav a:hover,
+.bottom-nav a:focus,
+.bottom-nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
+}
+
 .biline {
   margin: 0;
   text-align: center;
@@ -116,6 +165,14 @@ img {
   background-color: #efefef;
 }
 
+.discovery {
+  background-color: #efefef;
+}
+
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 20em) {
   
   .nav {
@@ -125,7 +182,24 @@ img {
   .nav li {
     display: inline-block;
   }
+
+  .copywright {
+    text-align: center;
+  }
+
+  .bottom-nav {
+    text-align: center;
+  }
+
+  .bottom-nav li {
+    display: inline-block;
+  }
+
+  .hidden {
+    display: inline-block;
+  }
 }
+
 
 @media only screen and (min-width: 40em) {
 
@@ -136,4 +210,27 @@ img {
  .nav {
     float: left;
   }
+
+  .copywright {
+    text-align: left;
+  }
+
+  .bottom-nav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .data dt {
+    float: left;
+    clear: left;
+    width: 40%;
+  }
+
+  .moons-large {
+    padding-left: 1.5rem;
+  }
+
 }
