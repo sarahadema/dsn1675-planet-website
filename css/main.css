@@ -204,6 +204,58 @@ img {
   display: none;
 }
 
+.form-background {
+  background-color: #efefef;
+}
+
+.join {
+  text-align: center;
+}
+
+.join-info {
+  text-align: center;
+}
+
+.level {
+  font-style: italic;
+}
+
+form {
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+}
+
+input+label {
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+button {
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+.enter-info {
+  width: 100%;
+}
+
+.explaination {
+  width: 100%;
+  height: 15em;
+}
+
 @media only screen and (min-width: 20em) {
   
   .nav {
