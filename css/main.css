@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -47,7 +46,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-}
+
+  color: #001f3f
+} 
 
 a:link,
 a:active{
@@ -88,7 +89,7 @@ img {
 .masthead {
   overflow: hidden;
 
-  background-color: #ccc;
+  background-color: #FF4136;
 }
 
 .content {
@@ -99,6 +100,8 @@ img {
   margin: 0;
 
   text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -114,16 +117,20 @@ img {
 .nav a:visited {
   display: block;
   padding: .5em;
+  border-radius: 1.5em;
 
   text-decoration: none;
-  color: #0074D9;
+  color: #fff;
 }
 .nav a:hover,
 .nav a:focus,
-.nav a:active {
-  background-color: #0074D9;
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #fff;
 
-  color: #fff;
+  color: #FF4136;
 }
 
 .bottom-nav {
@@ -139,23 +146,27 @@ img {
 .bottom-nav a:visited {
   display: block;
   padding: .5em;
+  border-radius: 1.5em;
 
   text-decoration: none;
-  color: #0074D9;
+  color: #fff;
 }
 .bottom-nav a:hover,
 .bottom-nav a:focus,
-.bottom-nav a:active {
-  background-color: #0074D9;
+.bottom-nav a:active
+.bottom-nav .nav-current,
+.bottom-nav .nav-current:link,
+.bottom-nav .nav-current:visited  {
+  background-color: #fff;
 
-  color: #fff;
+  color: #ff4136;
 }
 
 .biline {
   margin: 0;
   text-align: center;
 
-  background-color: #efefef;
+  background-color: #001f3f;
 }
 
 .planet {
@@ -166,14 +177,14 @@ img {
   margin: 0;
   text-align: center;
 
-  background-color: #e1e1e1;
+  background-color: #001f3f;
 }
 
 .exploration {
   margin: 0;
   text-align: center;
 
-  background-color: #e1e1e1;
+  background-color: #001f3f;
 }
 
 .name {
@@ -184,12 +195,13 @@ img {
   margin: 0;
 }
 .footer {
-  background-color: #ccc;
+  background-color: #FF4136;
 
   margin: 0;
 }
 .info {
-  background-color: #e1e1e1;
+  background-color: #001f3f;
+  color: #fff;
 }
 
 .details {
@@ -223,6 +235,8 @@ img {
 form {
   max-width: 35em;
   margin: 0 auto;
+
+  color: #ff4136;
 }
 
 label {
@@ -241,6 +255,17 @@ fieldset {
 button {
   font-size: 1em;
   cursor: pointer;
+  padding: 0.5em 3em;
+  background-color: #ff4136;
+  color: #fff;
+  border: none;
+  border-radius: 1.5em;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #ff4136;
+  border: 1px solid #ff4136;
 }
 
 .button {
@@ -249,11 +274,36 @@ button {
 
 .enter-info {
   width: 100%;
+
+  color: #001f3f;
+  border: 1px solid #ff4136;
+}
+
+.enter-info:focus {
+  background-color: #001f3f;
+  color: #fff;
+
+  border: 1px solid #001f3f;
+  outline: 1px solid #001f3f; 
 }
 
 .explaination {
   width: 100%;
   height: 15em;
+}
+
+.radio {
+  white-space: nowrap;
+}
+
+ .copyright {
+    color: #fff;
+    font-style: italic;
+  }
+
+.data-background {
+  background-color: #001f3f;
+  color: #fff;
 }
 
 @media only screen and (min-width: 20em) {
@@ -266,7 +316,7 @@ button {
     display: inline-block;
   }
 
-  .copywright {
+  .copyright {
     text-align: center;
   }
 

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Mars Exploration</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700|Merriweather:400,400italic,700" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
@@ -23,10 +24,10 @@
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">	
 				<nav id="navigation" role="navigation">
-					<ul class="nav mega push-none">
+					<ul class="nav mega push-none brand-family">
 						<li class="pad-bottom-half gutter-half"><a href="index.html">Planet</a></li>
 						<li class="pad-bottom-half gutter-half"><a href="moons.html">Moons</a></li>
-						<li class="pad-bottom-half gutter-half"><a href="exploration.html">Exploration</a></li>
+						<li class="pad-bottom-half gutter-half"><a class="nav-current" href="exploration.html">Exploration</a></li>
 					</ul>	
 				</nav>
 		</div>
@@ -61,18 +62,29 @@
 	</div>
 
 	<fieldset>
+
 		<legend class="level">Your level of awesomeness:</legend>
-		<input type="radio" id="meh" name="awesomeness">
-		<label for="meh">Meh...</label>
-		<input type="radio" id="Pretty-good" name="awesomeness">
-		<label for="Pretty-good">Pretty good.</label>
-		<input type="radio" id="" name="awesomeness">
-		<label for="Super">Super!</label>
+			
+		<span class="radio">	
+			<input type="radio" id="meh" name="awesomeness">
+			<label for="meh">Meh...</label>
+		</span>
+		
+		<span class="radio">
+			<input type="radio" id="Pretty-good" name="awesomeness">
+			<label for="Pretty-good">Pretty good.</label>
+		</span>
+		
+		<span class="radio">	
+			<input type="radio" id="Super!" name="awesomeness">
+			<label for="Super">Super!</label>
+		</span>	
+
 	</fieldset>
 
 	<div>
 		<label for="why">Explain why you deserve to go:</label>
-		<textarea class="explaination" id="why"></textarea>
+		<textarea class="explaination enter-info" id="why"></textarea>
 	</div>
 
 	<div class="button">
@@ -84,15 +96,15 @@
 </div>
 <footer class="footer island-half">
 	<div class="grid grid-middle">
-		<div role="contentinfo" class="copywright milli unit unit-xs-1 unit-s-1 unit-m-1-2">
+		<div role="contentinfo" class="copyright milli unit unit-xs-1 unit-s-1 unit-m-1-2">
 			<p class="push-none">© Mars Planetary Consortium </p>
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2">	
 			<nav>
-				<ul class="bottom-nav kilo push-none">
+				<ul class="bottom-nav kilo push-none brand-famly">
 					<li><a href="index.html">Planet</a></li>
 					<li><a href="moons.html">Moons</a></li>
-					<li><a href="exploration.html">Exploration</a></li>
+					<li><a class="nav-current" href="exploration.html">Exploration</a></li>
 				</ul>	
 			</nav>
 		</div>
